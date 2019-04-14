@@ -12,5 +12,18 @@ Classifying a star as having exoplanets or not based on the Kepler measurements 
 
 The objective of this project is to develop a machine learning tool that detects exoplanet candidates directly from the raw flux time-series data collected by NASA's Kepler telescope.
 
-### Data
+### Requirements
+The following packages are required: pandas, numpy, sklearn, matplotlib, scipy, imblearn, astropy, statsmodels, patsy, FATS.
 
+IMPORTANT: The feature extraction package, FATS, is not supported in Python 3.x. Therefore, a Python 2.x must be used to run the notebook, IF this package is to be used. 
+However, if this is not possible, there is no need to run the FATS code, since it has already been run and the extracted features were saved in a .csv file, which is provided in the submission and can be directly loaded ('flux_med_features_FATS.csv'). 
+
+The latest version of FATS should be installed from the github repository using:
+git clone https://github.com/isadoranun/FATS.git
+python setup.py install
+
+### Data
+The raw light-curve data from the K2 mission can be downloaded from:
+https://archive.stsci.edu/pub/k2/lightcurves/tarfiles/
+
+The dataset used in this project is a collection of flux time-series from Campaigns 1,3 and 5 of the K2 mission.
