@@ -16,7 +16,7 @@ The objective of this project is to develop a machine learning tool that detects
 The following packages are required: pandas, numpy, sklearn, matplotlib, scipy, imblearn, astropy, statsmodels, patsy, FATS.
 
 IMPORTANT: The feature extraction package, FATS, is not supported in Python 3.x. Therefore, a Python 2.x must be used to run the notebook, IF this package is to be used. 
-However, if this is not possible, there is no need to run the FATS code, since it has already been run and the extracted features were saved in a .csv file, which is provided in the submission and can be directly loaded ('flux_med_features_FATS.csv'). 
+However, if this is not possible there is no need to run the FATS code, since it has already been ran and the extracted features were saved in a .csv file, which can be directly loaded ('flux_med_features_FATS.csv'). 
 
 The latest version of FATS should be installed from the github repository using:
 git clone https://github.com/isadoranun/FATS.git
